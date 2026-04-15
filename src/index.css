@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-paper: #F8F7F2;
+  --color-ink: #1A1A1A;
+  --color-accent: #2C5F2D;
+  --color-border-color: #D1CFCA;
+  --color-surface: #FFFFFF;
+  --color-highlight: #FFF9C4;
+  --color-highlight-border: #E6D5A9;
+  --color-explanation-bg: #FAF9F6;
+
+  --font-serif: 'Georgia', 'Songti SC', 'SimSun', serif;
+  --font-sans: 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
